@@ -1,0 +1,12 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Oliver Rupprecht
+	email = oliverjrupprecht@gmail.com
+[core]
+	autocrlf = input
+[init]
+	defaultbranch = main

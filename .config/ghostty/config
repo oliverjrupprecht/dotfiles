@@ -1,0 +1,22 @@
+background-opacity = 1
+# Higher numbers = more frosty/glassy look
+background-blur-radius = 15
+
+theme = TokyoNight Storm 
+# Aardvark Blue
+
+macos-option-as-alt = left
+
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+
+font-size = 20
+
+keybind = super+alt+left=previous_tab
+keybind = super+alt+right=next_tab
+
+# Open yazi in current tab
+keybind = super+p=text:y\n
+
+# Open the Codex session picker in a new tab in the current directory
+keybind = super+a=text:codex resume\n

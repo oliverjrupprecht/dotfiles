@@ -1,0 +1,8 @@
+*.bak
+*.bak.*
+*~
+.DS_Store
+.zsh_history
+.zcompdump*
+*.zwc
+local.zsh
